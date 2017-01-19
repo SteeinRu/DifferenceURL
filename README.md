@@ -1,7 +1,19 @@
 # DifferenceURL
 Library which shows the difference between several links
 
-### The help message should explain the rest:
+
+
+#### Example enter url.py
+
+```
+python url.py http://example.com/?foo=bar
+foo
+< bar
+```
+
+Currently it runs on versions of Python between 2.7 and 3.5
+
+#### The help message should explain the rest:
 
 ```
 usage: url.py [-h] [-v] [--hostname] [--names] [--decode] [--quiet]
