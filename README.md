@@ -3,6 +3,7 @@ Library which shows the difference between several links
 
 ### The help message should explain the rest:
 
+```
 usage: url.py [-h] [-v] [--hostname] [--names] [--decode] [--quiet]
               [--case_insensitive]
               <left URL> [<right URL>]
@@ -30,3 +31,4 @@ optional arguments:
 
 This is a small library that throws everything after the # sign
 https://github.com/SteeinSource/DifferenceURL
+```
